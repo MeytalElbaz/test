@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 def add_numbers(first_number, second_number):
     """Calculates the sum of two numbers.
 
