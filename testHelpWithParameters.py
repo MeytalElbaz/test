@@ -27,13 +27,13 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(description="Calculates the sum of two numbers.")
-    parser.add_argument("--first_number", type=float, required=True, help="The first number to add.")
-    parser.add_argument("--second_number", type=float, required=True, help="The second number to add.")
+    parser.add_argument("--A", type=float, required=True, help="The first number to add.")
+    parser.add_argument("--B", type=float, required=True, help="The second number to add.")
 
     args = parser.parse_args()
 
-    sum_of_numbers = add_numbers(args.first_number, args.second_number)
-    print(f"The sum of {args.first_number} and {args.second_number} is: {sum_of_numbers}")
+    sum_of_numbers = add_numbers(args.A, args.B)
+    print(f"The sum of {args.A} and {args.B} is: {sum_of_numbers}")
 
 if __name__ == "__main__":
     main()
