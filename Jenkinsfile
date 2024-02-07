@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo "$A"
                 echo "$B"
-                python testHelpWithParameters.py $A $B
+                python3 testHelpWithParameters.py $A $B
             }
         }
     }
