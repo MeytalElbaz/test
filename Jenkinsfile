@@ -1,1 +1,1 @@
-println params.a.toInteger() + params.b.toInteger()
+println params.A.toInteger() + params.B.toInteger()
